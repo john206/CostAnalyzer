@@ -1,0 +1,48 @@
+# VS & Rider
+.vs/
+*.user
+*.suo
+*.sln.docstates
+_ReSharper.Caches/
+*.DotSettings.user
+
+# .NET build
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+TestResults/
+*.coverage*
+*.trx
+
+# Node / Vite (web/)
+web/node_modules/
+web/dist/
+web/.vite/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Env / secrets
+.env
+.env.*
+web/.env
+web/.env.*
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Keys/certs (keep out of git)
+*.pfx
+*.p12
+
+# NuGet legacy
+packages/
+
+# Temp files
+*.tmp
+*.temp
+*.swp
+*~
+
